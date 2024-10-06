@@ -135,6 +135,7 @@ form {
     /* float: right; */
     background-color: rgb(182, 161, 161);
     max-width: 400px;
+    padding: 20px 30px;
 }
 
 /* footer style */
