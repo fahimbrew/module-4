@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: beige;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+.nav-bar {}
+
+.nav-bar>ul {
+    /* background-color: aqua; */
+    display: flex;
+    height: 60px;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+
+.nav-bar ul li a {
+    /* padding-right: 30px; */
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    background-color: brown;
+    transition: 0.15s ease-in;
+}
+
+.nav-bar li .nested-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(43, 43, 23);
+    /* margin-left: 2px; */
+    text-align: left;
+
+}
+
+.nav-bar li:hover .nested-menu {
+    display: block;
+}
+
+.division {
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background-color: black; */
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: maroon;
+    font-weight: 900;
+}
+
+.div1,
+.div2 {
+    border: 0.5px solid black;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: rgb(177, 177, 167);
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px gray;
+
+
+
+}
+
+.div2 {
+    position: relative;
+    top: 200px;
+    margin-right: 40px;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    margin: 30px 120px;
+    /* border-color: aquamarine; */
+    border: 0.5px solid gray;
+}
+
+/* table */
+tr,
+td,
+th {
+    border: 3px solid rgb(184, 108, 108);
+    text-align: center;
+    color: brown;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    box-shadow: 20px 20px 20px rgb(87, 81, 81);
+}
+
+caption {
+    font-weight: 900;
+    color: cadetblue;
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* form */
+.form-section {
+    text-align: center;
+    /* background-color: bisque; */
+    display: block;
+}
+
+form {
+    margin: 10px auto;
+    /* float: right; */
+    background-color: rgb(182, 161, 161);
+    max-width: 400px;
+}
+
+/* footer style */
+footer {
+    /* background-color: burlywood; */
+    margin-top: 0;
+    max-height: 100px;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer>a {
+    text-decoration: none;
+    color: rgb(51, 82, 72);
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* color: rgb(60, 56, 52); */
+    /* transition: 0.15s ease-in; */
+    color: aliceblue;
+}
