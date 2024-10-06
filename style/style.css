@@ -145,6 +145,7 @@ footer {
     max-height: 100px;
     text-align: center;
     font-weight: 300;
+    padding-bottom: 30px;
 }
 
 footer>a {
